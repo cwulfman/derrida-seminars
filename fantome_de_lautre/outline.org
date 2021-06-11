@@ -1,0 +1,4 @@
+* Seminar
+** Copy 1
+*** session 1
+*** session 2

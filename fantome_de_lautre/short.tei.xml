@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>LE FANTOME DE L'AUTRE</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surfaceGrp type="page" n="1">
+            <surface xml:id="b18_f01_2" type="recto"
+               source="https://figgy.princeton.edu/concern/scanned_resources/229e261f-cd48-4d4b-8f08-5de6d95a2dd8/manifest/canvas/a3115a7e-6d94-441d-8aaa-b5f9dc9cb7a2"
+               n="2">
+               <graphic
+                  url="https://iiif-cloud.princeton.edu/iiif/2/aa%2F02%2F4f%2Faa024f94d27d435d83e92070f499fb76%2Fintermediate_file/full/1000,/0/default.jpg"
+               />
+            </surface>
+            <surface xml:id="b18_f01_3" type="verso"
+               source="https://figgy.princeton.edu/concern/scanned_resources/229e261f-cd48-4d4b-8f08-5de6d95a2dd8/manifest/canvas/d426fd90-b172-4fdb-baf9-3558d52e9c91"
+               n="3">
+               <graphic
+                  url="https://iiif-cloud.princeton.edu/iiif/2/29%2F81%2Fe5%2F2981e530941545e18c5d8b79ad6ab733%2Fintermediate_file/full/1000,/0/default.jpg"
+               />
+            </surface>
+         </surfaceGrp>
+         
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="seance">
+            
+            <head>LE FANTOME DE L'AUTRE</head>
+   <p>some sample text.</p>
+	    
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,443 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">le Fantôme de l'Autre</title>
+            <title type="sub">Nationalité et Nationalisme Philosophique</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <person xml:id="jd">
+               <persName>Jacques Derrida</persName>
+            </person>
+         </particDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surfaceGrp type="page" n="1">
+            <surface xml:id="b18_f01_2" type="recto" source="https://figgy.princeton.edu/concern/scanned_resources/229e261f-cd48-4d4b-8f08-5de6d95a2dd8/manifest/canvas/a3115a7e-6d94-441d-8aaa-b5f9dc9cb7a2" n="2">
+               <graphic url="aa%2F02%2F4f%2Faa024f94d27d435d83e92070f499fb76%2Fintermediate_file/full/1000,/0/default.jpg"/>
+            </surface>
+            <surface xml:id="b18_f01_3" type="verso" source="https://figgy.princeton.edu/concern/scanned_resources/229e261f-cd48-4d4b-8f08-5de6d95a2dd8/manifest/canvas/d426fd90-b172-4fdb-baf9-3558d52e9c91" n="3">
+               <graphic url="29%2F81%2Fe5%2F2981e530941545e18c5d8b79ad6ab733%2Fintermediate_file/full/1000,/0/default.jpg"/>
+            </surface>
+         </surfaceGrp>
+         <surfaceGrp type="page" n="2">
+            <surface xml:id="b18_f01_4" type="recto" source="https://figgy.princeton.edu/concern/scanned_resources/229e261f-cd48-4d4b-8f08-5de6d95a2dd8/manifest/canvas/e73eb891-113d-4ab5-855b-54d21c03fb87" n="4">
+               <graphic url="1d%2Fdb%2F27%2F1ddb275431e14b33a5034f8bf4639c9d%2Fintermediate_file/full/1000,/0/default.jpg"/>
+            </surface>
+            <surface xml:id="b18_f01_5" type="verso" source="https://figgy.princeton.edu/concern/scanned_resources/229e261f-cd48-4d4b-8f08-5de6d95a2dd8/manifest/canvas/fde80b36-180a-47ba-a996-b1f0c7f04199" n="5">
+               <graphic url="9a%2F3a%2F76%2F9a3a76d2f77f4a6babd41482fd87714a%2Fintermediate_file/full/1000,/0/default.jpg"/>
+            </surface>
+         </surfaceGrp>
+         <surfaceGrp type="page" n="3">
+            <surface xml:id="b18_f01_6" source="https://figgy.princeton.edu/concern/scanned_resources/229e261f-cd48-4d4b-8f08-5de6d95a2dd8/manifest/canvas/5623fe3e-e1fa-41fb-92a7-d7c78e330066" n="6">
+               <graphic url="c9%2F74%2F40%2Fc97440d7d78043bba1c2be521b05d405%2Fintermediate_file/full/1000,/0/default.jpg"/>
+            </surface>
+            <surface xml:id="b18_f01_7" source="https://figgy.princeton.edu/concern/scanned_resources/229e261f-cd48-4d4b-8f08-5de6d95a2dd8/manifest/canvas/04bb42dd-c6b8-4823-b3f6-5b1761445fe6" n="7">
+               <graphic url="6a%2F4b%2Fd4%2F6a4bd42d6c0147c6bcc9bb6df00b162a%2Fintermediate_file/full/1000,/0/default.jpg"/>
+            </surface>
+         </surfaceGrp>
+         <surfaceGrp type="page" n="4">
+            <surface xml:id="b18_f01_8" source="https://figgy.princeton.edu/concern/scanned_resources/229e261f-cd48-4d4b-8f08-5de6d95a2dd8/manifest/canvas/1b44c9df-943d-47dc-b7a7-b8d214648c6a" n="8">
+               <graphic url="63%2F31%2F72%2F633172ef07c5484f80c5cbcc464501bd%2Fintermediate_file/full/1000,/0/default.jpg"/>
+            </surface>
+            <surface xml:id="b18_f01_9" source="https://figgy.princeton.edu/concern/scanned_resources/229e261f-cd48-4d4b-8f08-5de6d95a2dd8/manifest/canvas/1bf037c0-bfdb-4629-ac76-c05560a692c9" n="9">
+               <graphic url="85%2Fe1%2F18%2F85e11835b52a4cbab0f0dda17dfb3cf4%2Fintermediate_file/full/1000,/0/default.jpg"/>
+            </surface>
+         </surfaceGrp>
+         <surfaceGrp type="page" n="5">
+            <surface xml:id="b18_f01_10" source="https://figgy.princeton.edu/concern/scanned_resources/229e261f-cd48-4d4b-8f08-5de6d95a2dd8/manifest/canvas/5d8b0a9e-f7b7-4bdd-a520-ad5decd96028" n="10">
+               <graphic url="f0%2F31%2Fa2%2Ff031a2b8e1954584be759b3b182ebe28%2Fintermediate_file/full/1000,/0/default.jpg"/>
+            </surface>
+            <surface xml:id="b18_f01_11" source="https://figgy.princeton.edu/concern/scanned_resources/229e261f-cd48-4d4b-8f08-5de6d95a2dd8/manifest/canvas/7ed6decc-f8a8-45c1-b6a7-18cf2a42aa39" n="11">
+               <graphic url="b2%2F89%2Faa%2Fb289aa2849364d05afb8d3f5b3f37c05%2Fintermediate_file/full/1000,/0/default.jpg"/>
+            </surface>
+         </surfaceGrp>
+         <surfaceGrp type="page" n="6">
+            <surface xml:id="b18_f01_12" source="https://figgy.princeton.edu/concern/scanned_resources/229e261f-cd48-4d4b-8f08-5de6d95a2dd8/manifest/canvas/27b73aba-2ecc-45d0-a063-94acc2b39a5e" n="12">
+               <graphic url="c0%2F98%2F47%2Fc09847adffc4429a8909739cf49f2369%2Fintermediate_file/full/1000,/0/default.jpg"/>
+            </surface>
+            <surface xml:id="b18_f01_13" source="https://figgy.princeton.edu/concern/scanned_resources/229e261f-cd48-4d4b-8f08-5de6d95a2dd8/manifest/canvas/c289b0c9-fa73-451f-915e-82ad1a937e82" n="13">
+               <graphic url="76%2F2e%2F17%2F762e175b75014dfe822353802e0d9933%2Fintermediate_file/full/1000,/0/default.jpg"/>
+            </surface>
+         </surfaceGrp>
+         <surfaceGrp type="page" n="7">
+            <surface xml:id="b18_f01_14" source="https://figgy.princeton.edu/concern/scanned_resources/229e261f-cd48-4d4b-8f08-5de6d95a2dd8/manifest/canvas/bb7a6c91-3136-481f-8422-d418e8e5607b" n="14">
+               <graphic url="1c%2F05%2Fcf%2F1c05cfd95638456787602058712da0a3%2Fintermediate_file/full/1000,/0/default.jpg"/>
+            </surface>
+            <surface xml:id="b18_f01_15" source="https://figgy.princeton.edu/concern/scanned_resources/229e261f-cd48-4d4b-8f08-5de6d95a2dd8/manifest/canvas/da4dcf5f-29e8-49db-8265-383462af8f40" n="15">
+               <graphic url="ac%2F20%2F25%2Fac2025f5d173427caf21102df287070e%2Fintermediate_file/full/1000,/0/default.jpg"/>
+            </surface>
+         </surfaceGrp>
+         <surfaceGrp type="page" n="8">
+            <surface xml:id="b18_f01_16" source="https://figgy.princeton.edu/concern/scanned_resources/229e261f-cd48-4d4b-8f08-5de6d95a2dd8/manifest/canvas/b7056cc8-dbff-407c-a157-0fa4aa3b7fbb" n="16">
+               <graphic url="1e%2F5a%2Fbe%2F1e5abe0b5d2a40889fd1dabd74fcb84e%2Fintermediate_file/full/1000,/0/default.jpg"/>
+            </surface>
+            <surface xml:id="b18_f01_17" source="https://figgy.princeton.edu/concern/scanned_resources/229e261f-cd48-4d4b-8f08-5de6d95a2dd8/manifest/canvas/e3c8452a-fa3a-4a01-851a-45ca6b25959c" n="17">
+               <graphic url="fc%2Fbd%2Fa4%2Ffcbda4bf811a4da985305fc856fcf72a%2Fintermediate_file/full/1000,/0/default.jpg"/>
+            </surface>
+         </surfaceGrp>
+         <surfaceGrp type="page" n="8">
+            <surface xml:id="b18_f01_18" source="https://figgy.princeton.edu/concern/scanned_resources/229e261f-cd48-4d4b-8f08-5de6d95a2dd8/manifest/canvas/4954bb36-5d0a-4924-8951-cc74a2c031c7" n="18">
+               <graphic url="90%2F84%2F7c%2F90847c2e3ad54c048b6f203995292717%2Fintermediate_file/full/1000,/0/default.jpg"/>
+            </surface>
+            <surface xml:id="b18_f01_19" source="https://figgy.princeton.edu/concern/scanned_resources/229e261f-cd48-4d4b-8f08-5de6d95a2dd8/manifest/canvas/e52e5488-825e-4ef0-8cbc-bc1a2e03cf91" n="19">
+               <graphic url="1b%2Fc8%2Ff9%2F1bc8f9e4cca64f4084bed2fe87eb72c7%2Fintermediate_file/full/1000,/0/default.jpg"/>
+            </surface>
+         </surfaceGrp>
+         <surfaceGrp type="page" n="9">
+            <surface xml:id="b18_f01_20" source="https://figgy.princeton.edu/concern/scanned_resources/229e261f-cd48-4d4b-8f08-5de6d95a2dd8/manifest/canvas/a06f87e6-1123-4e09-9227-e5764c563480" n="20">
+               <graphic url="97%2Fa7%2F6a%2F97a76a5cddaa4aa190f53b5c1386de82%2Fintermediate_file/full/1000,/0/default.jpg"/>
+            </surface>
+            <surface xml:id="b18_f01_21" source="https://figgy.princeton.edu/concern/scanned_resources/229e261f-cd48-4d4b-8f08-5de6d95a2dd8/manifest/canvas/bc1c61ef-4282-48d7-8ca3-aedaf0a31841" n="21">
+               <graphic url="a6%2F92%2Fd5%2Fa692d5267eca4b8ebd36c25a36c4769b%2Fintermediate_file/full/1000,/0/default.jpg"/>
+            </surface>
+         </surfaceGrp>
+         <surfaceGrp type="page" n="10">
+            <surface xml:id="b18_f01_22" source="https://figgy.princeton.edu/concern/scanned_resources/229e261f-cd48-4d4b-8f08-5de6d95a2dd8/manifest/canvas/17618090-dd6c-4697-b5ae-6ce0380fad2a" n="22">
+               <graphic url="46%2Fad%2F23%2F46ad2368ebc04df5a489f08706dbefa3%2Fintermediate_file/full/1000,/0/default.jpg"/>
+            </surface>
+            <surface xml:id="b18_f01_23" source="https://figgy.princeton.edu/concern/scanned_resources/229e261f-cd48-4d4b-8f08-5de6d95a2dd8/manifest/canvas/b66e8ad5-bd54-4ebe-8662-199bc2d7ad57" n="23">
+               <graphic url="20%2F9e%2Fb1%2F209eb111570c4ba083093b0c2c89108d%2Fintermediate_file/full/1000,/0/default.jpg"/>
+            </surface>
+         </surfaceGrp>
+         <surfaceGrp type="page" n="11">
+            <surface xml:id="b18_f01_24" source="https://figgy.princeton.edu/concern/scanned_resources/229e261f-cd48-4d4b-8f08-5de6d95a2dd8/manifest/canvas/b939028d-b97d-47c4-9a4b-5cfb2574eb45" n="24">
+               <graphic url="66%2Fe6%2F1b%2F66e61b92c2324583a47e7228e27fac4a%2Fintermediate_file/full/1000,/0/default.jpg"/>
+            </surface>
+            <surface xml:id="b18_f01_25" source="https://figgy.princeton.edu/concern/scanned_resources/229e261f-cd48-4d4b-8f08-5de6d95a2dd8/manifest/canvas/11824833-f337-489a-ac2a-d73ccff57942" n="25">
+               <graphic url="a9%2F8d%2F8e%2Fa98d8ed7025b4750bfec9de38941db12%2Fintermediate_file/full/1000,/0/default.jpg"/>
+            </surface>
+         </surfaceGrp>
+         <surfaceGrp type="page" n="12">
+            <surface xml:id="b18_f01_26" source="https://figgy.princeton.edu/concern/scanned_resources/229e261f-cd48-4d4b-8f08-5de6d95a2dd8/manifest/canvas/2f3cf891-61db-497d-abb6-cfce6da1ab08" n="26">
+               <graphic url="52%2Ff0%2F97%2F52f09744656c4a73a606ca6ae5a75084%2Fintermediate_file/full/1000,/0/default.jpg"/>
+            </surface>
+            <surface xml:id="b18_f01_27" source="https://figgy.princeton.edu/concern/scanned_resources/229e261f-cd48-4d4b-8f08-5de6d95a2dd8/manifest/canvas/4e87927f-28f2-48d9-b7e2-3218ba4c8826" n="27">
+               <graphic url="f6%2F33%2F44%2Ff63344b623ed49ec894f4da63649c100%2Fintermediate_file/full/1000,/0/default.jpg"/>
+            </surface>
+         </surfaceGrp>
+         <surfaceGrp type="page" n="13">
+            <surface xml:id="b18_f01_28" source="https://figgy.princeton.edu/concern/scanned_resources/229e261f-cd48-4d4b-8f08-5de6d95a2dd8/manifest/canvas/3a324f64-fc15-49c7-87ff-5b754f9a0b7c" n="28">
+               <graphic url="ae%2F6d%2Fcc%2Fae6dcc3cc6f7453995f80591ab85dddc%2Fintermediate_file/full/1000,/0/default.jpg"/>
+            </surface>
+            <surface xml:id="b18_f01_29" source="https://figgy.princeton.edu/concern/scanned_resources/229e261f-cd48-4d4b-8f08-5de6d95a2dd8/manifest/canvas/8dc64b6f-594a-49c0-ada2-d61931189933" n="29">
+               <graphic url="73%2Fb2%2F39%2F73b2391524ab4d5d9d167e450d402a8c%2Fintermediate_file/full/1000,/0/default.jpg"/>
+            </surface>
+         </surfaceGrp>
+         <surfaceGrp type="page" n="14">
+            <surface xml:id="b18_f01_30" source="https://figgy.princeton.edu/concern/scanned_resources/229e261f-cd48-4d4b-8f08-5de6d95a2dd8/manifest/canvas/3fb7cb7b-cd2f-4c50-b6a4-a751e46e7392" n="30">
+               <graphic url="5d%2F79%2Fd0%2F5d79d0391a9a4ad2821d91298e847723%2Fintermediate_file/full/1000,/0/default.jpg"/>
+            </surface>
+            <surface xml:id="b18_f01_31" source="https://figgy.princeton.edu/concern/scanned_resources/229e261f-cd48-4d4b-8f08-5de6d95a2dd8/manifest/canvas/b26d9265-80a6-48fd-906b-e71b09d05792" n="31">
+               <graphic url="bd%2Faf%2F8f%2Fbdaf8f0b33f14d618dd415812466a345%2Fintermediate_file/full/1000,/0/default.jpg"/>
+            </surface>
+         </surfaceGrp>
+         <surfaceGrp type="page" n="15">
+            <surface xml:id="b18_f01_32" source="https://figgy.princeton.edu/concern/scanned_resources/229e261f-cd48-4d4b-8f08-5de6d95a2dd8/manifest/canvas/b0f3678f-61c7-4e71-872f-b4831caccc17" n="32">
+               <graphic url="20%2Fe4%2F0c%2F20e40cdcf06840b49a6dee3738c7c72f%2Fintermediate_file/full/1000,/0/default.jpg"/>
+            </surface>
+            <surface xml:id="b18_f01_33" source="https://figgy.princeton.edu/concern/scanned_resources/229e261f-cd48-4d4b-8f08-5de6d95a2dd8/manifest/canvas/9138d6f9-bc1d-4b61-bbfd-e0ebb3037cc6" n="33">
+               <graphic url="05%2F31%2F6c%2F05316c444d1146008e41e39dda9de5f0%2Fintermediate_file/full/1000,/0/default.jpg"/>
+            </surface>
+         </surfaceGrp>
+         <surfaceGrp type="page" n="16">
+            <surface xml:id="b18_f01_34" source="https://figgy.princeton.edu/concern/scanned_resources/229e261f-cd48-4d4b-8f08-5de6d95a2dd8/manifest/canvas/b3f5cc46-aa25-4803-80c8-90da1e890e20" n="34">
+               <graphic url="eb%2F2d%2Fcd%2Feb2dcd46c01942928ce3f05da4543e4d%2Fintermediate_file/full/1000,/0/default.jpg"/>
+            </surface>
+            <surface xml:id="b18_f01_35" source="https://figgy.princeton.edu/concern/scanned_resources/229e261f-cd48-4d4b-8f08-5de6d95a2dd8/manifest/canvas/510850a1-055b-493b-8444-6850a84e2e00" n="35">
+               <graphic url="76%2Fdb%2F90%2F76db902ac8f24440b2125a304806a758%2Fintermediate_file/full/1000,/0/default.jpg"/>
+            </surface>
+         </surfaceGrp>
+         <surfaceGrp type="page" n="17">
+            <surface xml:id="b18_f01_36" source="https://figgy.princeton.edu/concern/scanned_resources/229e261f-cd48-4d4b-8f08-5de6d95a2dd8/manifest/canvas/3348fe34-47a6-443e-aae5-3e4780ce4e89" n="36">
+               <graphic url="d3%2Fc6%2Fca%2Fd3c6cab3fd6541caaffe0ebbeeef7e66%2Fintermediate_file/full/1000,/0/default.jpg"/>
+            </surface>
+            <surface xml:id="b18_f01_37" source="https://figgy.princeton.edu/concern/scanned_resources/229e261f-cd48-4d4b-8f08-5de6d95a2dd8/manifest/canvas/75cd7fae-2c52-498e-94fb-74d6b6035036" n="37">
+               <graphic url="08%2F17%2F3c%2F08173cae6fd3425eb7d5daafeaf2ed56%2Fintermediate_file/full/1000,/0/default.jpg"/>
+            </surface>
+         </surfaceGrp>
+         <surfaceGrp type="page" n="18">
+            <surface xml:id="b18_f01_38" source="https://figgy.princeton.edu/concern/scanned_resources/229e261f-cd48-4d4b-8f08-5de6d95a2dd8/manifest/canvas/7921e49f-6dd0-456a-b1e8-ce539625bee8" n="38">
+               <graphic url="75%2F49%2Fb6%2F7549b60f7c47460da731ba882f050c3f%2Fintermediate_file/full/1000,/0/default.jpg"/>
+            </surface>
+            <surface xml:id="b18_f01_39" source="https://figgy.princeton.edu/concern/scanned_resources/229e261f-cd48-4d4b-8f08-5de6d95a2dd8/manifest/canvas/cdbed8b0-4190-4e3b-89fe-936066732fcc" n="39">
+               <graphic url="96%2F8f%2F33%2F968f3374f3fc4bc69b270dd6e646a5ee%2Fintermediate_file/full/1000,/0/default.jpg"/>
+            </surface>
+         </surfaceGrp>
+         <surfaceGrp type="page" n="19">
+            <surface xml:id="b18_f01_40" source="https://figgy.princeton.edu/concern/scanned_resources/229e261f-cd48-4d4b-8f08-5de6d95a2dd8/manifest/canvas/cd8d35f5-71d9-4e73-934a-ba441d84e29d" n="40">
+               <graphic url="65%2F01%2Fb3%2F6501b30e1dd642729dccadc797c2f19a%2Fintermediate_file/full/1000,/0/default.jpg"/>
+            </surface>
+            <surface xml:id="b18_f01_41" source="https://figgy.princeton.edu/concern/scanned_resources/229e261f-cd48-4d4b-8f08-5de6d95a2dd8/manifest/canvas/d22759cd-b54c-4ac3-b676-bc4a93ee01e4" n="41">
+               <graphic url="ea%2F1d%2Fdf%2Fea1ddfba30294747a6ef5f552042d186%2Fintermediate_file/full/1000,/0/default.jpg"/>
+            </surface>
+         </surfaceGrp>
+         <surfaceGrp type="page" n="20">
+            <surface xml:id="b18_f01_42" source="https://figgy.princeton.edu/concern/scanned_resources/229e261f-cd48-4d4b-8f08-5de6d95a2dd8/manifest/canvas/557e6862-17bf-42c5-98f7-a70769feee16" n="42">
+               <graphic url="f7%2F1d%2F57%2Ff71d57d4edc84738a84eda0f56c0f7ff%2Fintermediate_file/full/1000,/0/default.jpg"/>
+            </surface>
+            <surface xml:id="b18_f01_43" source="https://figgy.princeton.edu/concern/scanned_resources/229e261f-cd48-4d4b-8f08-5de6d95a2dd8/manifest/canvas/9798be7c-5e92-4f51-8b64-937556476c5c" n="43">
+               <graphic url="a3%2F3c%2F27%2Fa33c27818e234f858325ea1c7d9f5074%2Fintermediate_file/full/1000,/0/default.jpg"/>
+            </surface>
+         </surfaceGrp>
+         <surfaceGrp type="page" n="21">
+            <surface xml:id="b18_f01_44" source="https://figgy.princeton.edu/concern/scanned_resources/229e261f-cd48-4d4b-8f08-5de6d95a2dd8/manifest/canvas/ebeea33f-8a90-4cec-93f2-1ce20eac8db8" n="44">
+               <graphic url="9e%2F1a%2Ff5%2F9e1af54b63a74627af9dc996aeceed64%2Fintermediate_file/full/1000,/0/default.jpg"/>
+            </surface>
+            <surface xml:id="b18_f01_45" source="https://figgy.princeton.edu/concern/scanned_resources/229e261f-cd48-4d4b-8f08-5de6d95a2dd8/manifest/canvas/461cebbc-733e-4831-b5e9-4264daa06d4e" n="45">
+               <graphic url="ee%2Ff0%2F06%2Feef006b3d7e144c89c5582fa93dadb00%2Fintermediate_file/full/1000,/0/default.jpg"/>
+            </surface>
+         </surfaceGrp>
+         <surfaceGrp type="page" n="22">
+            <surface xml:id="b18_f01_46" source="https://figgy.princeton.edu/concern/scanned_resources/229e261f-cd48-4d4b-8f08-5de6d95a2dd8/manifest/canvas/bc90161b-4f29-47ee-90a5-62b35f895e62" n="46">
+               <graphic url="c4%2F56%2F9d%2Fc4569dbd9baf407fadc5ac8258b3892d%2Fintermediate_file/full/1000,/0/default.jpg"/>
+            </surface>
+            <surface xml:id="b18_f01_47" source="https://figgy.princeton.edu/concern/scanned_resources/229e261f-cd48-4d4b-8f08-5de6d95a2dd8/manifest/canvas/5d5e51f1-9995-43c6-ba2f-1a5525abe1ee" n="47">
+               <graphic url="32%2F96%2Fe8%2F3296e8add5134c9da5233d3fb4970581%2Fintermediate_file/full/1000,/0/default.jpg"/>
+            </surface>
+         </surfaceGrp>
+         <surfaceGrp type="page" n="23">
+            <surface xml:id="b18_f01_48" source="https://figgy.princeton.edu/concern/scanned_resources/229e261f-cd48-4d4b-8f08-5de6d95a2dd8/manifest/canvas/226c54f5-d0e0-4e07-af04-63141293fb80" n="48">
+               <graphic url="4d%2Fac%2F97%2F4dac97cbb43e4fb1a2c06535b75b9f35%2Fintermediate_file/full/1000,/0/default.jpg"/>
+            </surface>
+            <surface xml:id="b18_f01_49" source="https://figgy.princeton.edu/concern/scanned_resources/229e261f-cd48-4d4b-8f08-5de6d95a2dd8/manifest/canvas/e2743d86-631e-4dae-8847-b8913032ec15" n="49">
+               <graphic url="4e%2F26%2F39%2F4e2639c232d64c9f9ddf2655a39b0def%2Fintermediate_file/full/1000,/0/default.jpg"/>
+            </surface>
+         </surfaceGrp>
+         <surfaceGrp type="page" n="24">
+            <surface xml:id="b18_f01_50" source="https://figgy.princeton.edu/concern/scanned_resources/229e261f-cd48-4d4b-8f08-5de6d95a2dd8/manifest/canvas/2aed9165-3f8e-422d-bf04-f8d325e34e27" n="50">
+               <graphic url="c6%2F57%2F30%2Fc6573081571d42d192601770790f1023%2Fintermediate_file/full/1000,/0/default.jpg"/>
+            </surface>
+            <surface xml:id="b18_f01_51" source="https://figgy.princeton.edu/concern/scanned_resources/229e261f-cd48-4d4b-8f08-5de6d95a2dd8/manifest/canvas/d9f24753-4909-411a-8fbf-e650dbf35776" n="51">
+               <graphic url="54%2F0f%2F8f%2F540f8fc0124e492b9c987945537a8adc%2Fintermediate_file/full/1000,/0/default.jpg"/>
+            </surface>
+         </surfaceGrp>
+         <surfaceGrp type="page" n="25">
+            <surface xml:id="b18_f01_52" source="https://figgy.princeton.edu/concern/scanned_resources/229e261f-cd48-4d4b-8f08-5de6d95a2dd8/manifest/canvas/2187ef80-a875-4a2e-9768-485fddf86ff1" n="52">
+               <graphic url="f2%2F59%2F19%2Ff25919cab35543bbab413d6558db16a1%2Fintermediate_file/full/1000,/0/default.jpg"/>
+            </surface>
+            <surface xml:id="b18_f01_53" source="https://figgy.princeton.edu/concern/scanned_resources/229e261f-cd48-4d4b-8f08-5de6d95a2dd8/manifest/canvas/b4c5f0ab-2ebb-4415-a3a9-9084d5137cf4" n="53">
+               <graphic url="3b%2Fca%2F16%2F3bca162a089d488aa8a85e08778dc2b8%2Fintermediate_file/full/1000,/0/default.jpg"/>
+            </surface>
+         </surfaceGrp>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="seance">
+            <pb facs="#b18_f01_2" n="1r"/>
+            <fw/>
+            
+            <head>
+               <lb/><add hand="#jd">LE FANTOME DE L'AUTRE</add>
+               <lb/><add>[illegible</add>
+               <lb/>NATIONALITE ET NATIONALISME PHILOSOPHIQUE
+            </head>
+  
+            
+            <p>
+	      Sous ce titre, mon propos n'est pas, du moins pas en premier lieu ou
+            si vous préférez, en dernière instance, de procéder à l'analyse historique,
+            sociale, linguistique  de ce qu'on appellerait une nation, une nationalité
+            philosophique. Une telle analyse n'est certes pas exclue du séminaire, elle
+            y sera même nécessaire et j'espère que nous l'entreprendrons de plusieurs
+            façons et surtout que nous en interrogerons la possibilité, mais elle
+            n'est pas mon premier souci.
+	  </p>
+	  <p>
+            Mon souci principal, ici, irait plutot vers les <hi rend="underline" hand="#jd">apories de la traduction
+            philosophique des idiomes philosophiques.</hi> De manière un peu abrupte, comme
+            en tout commencement, je dirai qu'il y a - c'est notre expérience et je
+            parlerai de cette expérience et de ses droits dans un instant - il y a et
+            nous en avons l'expérience, <hi rend="double-underline">des</hi> idiomes philosophiques et cette seule expe-
+            rience ne peut <metamark/> pas être vécue par un philosophe, par un soi-disant philosophe,
+            par qui se dit philosophe, à la fois comme un <hi rend="underline" hand="#jd">scandale</hi> et comme la <hi rend="underline" hand="#jd">chance</hi>
+            même de la philosophie.
+	  </p>
+          <p>
+            Un scandale, c'est à dire ce qui fait achopper, ce qui fait tomber la
+            philosophie<del/>, ce qui l'arrête en chemin si le soi-disant philosophe considère
+            que la philosophie est essentiellement universelle et cosmopolite, que
+            la différence nationale, sociale, idiomatique en général ne doit lui
+            arriver que comme un accident prov<del>o</del>isoire, surmontable et inessentiel. La
+            philosophie ne doit pas <hi rend="underline">souffrir</hi> la différence d'idiome, <add place="below">elle ne doit pas la supporter</add> elle ne doit pas            
+            en souffrir. Toute affirmation de l'idiome ou de l'irréductibilité de
+            l'idiome serait alors une agression ou une profanation à l'égard du
+            philosophique comme tel.
+	  </p>
+	  <p>
+            Un scandale mais aussi une chance dans la mesure où la seule possibilité
+            pour une - pour la philosophie de se dire, de se discuter, de passer,
+            de se passer, d'aller de l'un à l'autre, c'est de passer par des
+            idiomes, de transporter <add place="above">l'idome</add> et se transporter, de se traduire au travers ou
+            plutôt dans le <del>xeex ekxx «</del>orps d'idiomes qui ne sont pas des clotures
+
+            <pb facs="#b18_f01_3" n="1v"/>
+
+	  </p>
+            <pb facs="#b18_f01_4" n="2r"/>
+            <fw type="page_number">-2-</fw>
+
+            <pb facs="#b18_f01_5" n="2v"/>
+
+
+            <pb facs="#b18_f01_6" n="3r"/>
+            <fw type="page_number">-3-</fw>
+
+            <pb facs="#b18_f01_7" n="3v"/>
+
+
+            <pb facs="#b18_f01_8" n="4r"/>
+            <fw type="page_number">-4-</fw>
+
+            <pb facs="#b18_f01_9" n="4v"/>
+
+
+            <pb facs="#b18_f01_10" n="5r"/>
+            <fw type="page_number">-5-</fw>
+
+            <pb facs="#b18_f01_11" n="5v"/>
+
+
+            <pb facs="#b18_f01_12" n="6r"/>
+            <fw type="page_number">-6-</fw>
+
+            <pb facs="#b18_f01_13" n="6v"/>
+
+
+            <pb facs="#b18_f01_14" n="7r"/>
+            <fw type="page_number">-7-</fw>
+
+            <pb facs="#b18_f01_15" n="7v"/>
+
+
+            <pb facs="#b18_f01_16" n="8r"/>
+            <fw type="page_number">-8-</fw>
+
+            <pb facs="#b18_f01_17" n="8v"/>
+
+
+            <pb facs="#b18_f01_18" n="9r"/>
+            <fw type="page_number">-9-</fw>
+
+            <pb facs="#b18_f01_19" n="9v"/>
+
+
+            <pb facs="#b18_f01_20" n="10r"/>
+            <fw type="page_number">-10-</fw>
+
+            <pb facs="#b18_f01_21" n="10v"/>
+
+
+            <pb facs="#b18_f01_22" n="11r"/>
+            <fw type="page_number">-11-</fw>
+
+            <pb facs="#b18_f01_23" n="11v"/>
+
+
+            <pb facs="#b18_f01_24" n="12r"/>
+            <fw type="page_number">-12-</fw>
+
+            <pb facs="#b18_f01_25" n="12v"/>
+
+
+            <pb facs="#b18_f01_26" n="13r"/>
+            <fw type="page_number">-13-</fw>
+
+            <pb facs="#b18_f01_27" n="13v"/>
+
+
+            <pb facs="#b18_f01_28" n="14r"/>
+            <fw type="page_number">-14-</fw>
+
+            <pb facs="#b18_f01_29" n="14v"/>
+
+
+            <pb facs="#b18_f01_30" n="15r"/>
+            <fw type="page_number">-15-</fw>
+
+            <pb facs="#b18_f01_31" n="15v"/>
+
+
+            <pb facs="#b18_f01_32" n="16r"/>
+            <fw type="page_number">-16-</fw>
+
+            <pb facs="#b18_f01_33" n="16v"/>
+
+
+            <pb facs="#b18_f01_34" n="17r"/>
+            <fw type="page_number">-17-</fw>
+
+            <pb facs="#b18_f01_35" n="17v"/>
+
+
+            <pb facs="#b18_f01_36" n="18r"/>
+            <fw type="page_number">-18-</fw>
+
+            <pb facs="#b18_f01_37" n="18v"/>
+
+
+            <pb facs="#b18_f01_38" n="19r"/>
+            <fw type="page_number">-19-</fw>
+
+            <pb facs="#b18_f01_39" n="19v"/>
+
+
+            <pb facs="#b18_f01_40" n="20r"/>
+            <fw type="page_number">-20-</fw>
+
+            <pb facs="#b18_f01_41" n="20v"/>
+
+
+            <pb facs="#b18_f01_42" n="21r"/>
+            <fw type="page_number">-21-</fw>
+
+            <pb facs="#b18_f01_43" n="21v"/>
+
+
+            <pb facs="#b18_f01_44" n="22r"/>
+            <fw type="page_number">-22-</fw>
+
+            <pb facs="#b18_f01_45" n="22v"/>
+
+
+            <pb facs="#b18_f01_46" n="23r"/>
+
+
+            <pb facs="#b18_f01_47" n="23v"/>
+
+
+            <pb facs="#b18_f01_48" n="24r"/>
+            <fw type="page_number">-23-</fw>
+
+            <pb facs="#b18_f01_49" n="24v"/>
+
+
+            <pb facs="#b18_f01_50" n="25r"/>
+            <fw type="page_number">-24-</fw>
+
+            <pb facs="#b18_f01_51" n="25v"/>
+
+
+            <pb facs="#b18_f01_52" n="26r"/>
+
+
+            <pb facs="#b18_f01_53" n="26v"/>
+
+
+	    
+         </div>
+      </body>
+   </text>
+</TEI>
